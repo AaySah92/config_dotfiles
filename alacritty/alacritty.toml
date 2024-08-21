@@ -4,7 +4,8 @@ normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 
 [window]
 opacity = 0.9
-startup_mode = "Fullscreen"
+startup_mode = "Maximized"
+decorations = "None"
 
 [window.padding]
 x = 10
