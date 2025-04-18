@@ -1,6 +1,6 @@
 require('mason').setup({})
 require('mason-lspconfig').setup({
-	ensure_installed = {'lua_ls', 'bashls', 'yamlls', 'taplo'},
+	ensure_installed = {'lua_ls', 'bashls', 'yamlls', 'taplo', 'gopls'},
 	handlers = {
 		function(server_name)
 			require('lspconfig')[server_name].setup({})
